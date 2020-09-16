@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #bb00ff;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img{
+    width: 200px;
+    margin: 10px 0 0 10px ;
+}
+
+.header__menu {
+    margin-right: 30px;
+}
+
+.header__menu ul{
+    display: none;
+    list-style: none;
+    margin: 0 0 0 -14px;
+    padding: 0;
+    position: absolute;
+    text-align: right;
+    width: 100px;
+}
+
+.header__menu:hover ul, ul:hover{
+    display: block;
+}
+
+.header__menu--profile{
+    margin-right: 8px;
+    width: 40px;
+}
